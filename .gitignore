@@ -1,0 +1,21 @@
+# Ignore compiled classes
+*.class
+
+# Ignore IDE files
+/.idea/
+/.vscode/
+/*.iml
+
+# Ignore JARs
+lib/*.jar
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary build files
+/out/
+/bin/
+
+# NEVER PUSH PASSWORDS
+*.env
